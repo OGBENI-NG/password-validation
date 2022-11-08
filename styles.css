@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 350px;
+    border: 1px solid;
+    margin-top: 30vh;
+    padding: 20px;
+    background: #ffffff;
+}
+
+.message {
+    display: none;
+    line-height: 5px;
+    
+}
+
+.message p {
+    margin-left: 8px;
+}
+
+
+
+.valid {
+    color: #20bf55;
+}
+  
+.valid:before {
+    position: relative;
+    left: -8px;
+    content: "✔";
+}
+  
+
+.invalid {
+    color: #96031a;
+}
+
+.invalid:before {
+    position: relative;
+    left: -8px;
+    content: "✖";
+}
+
+.input-con {
+    margin-top: 10px;
+}
+
+.warning-txt {
+    margin: 5px 0;
+    color: orangered;
+
+}
+
+label {
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #1c1d21;
+}
+
+input {
+    width: 100%;
+    margin-top: 8px;
+    height: 36px;
+    font-size: 18px;
+    outline: none;
+    padding: 5px 8px;
+    border: 2px solid #ced4da;
+    border-radius: 5px;
+    color: #1b9aaa;
+    
+}
+
+
+
+.btn-con {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+button {
+    width: 100px;
+    height: 36px;
+    margin-top: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background: #0b3948;
+    color: #ced4da;
+    box-shadow: 1px 1px 10px #000;
+    cursor: pointer;
+}
+
+button:active {
+    transform: translateY(3px);
+    color: #20bf55;
+}
+
